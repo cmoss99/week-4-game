@@ -1,0 +1,65 @@
+div {
+	background-color: white;
+	margin: 10px;
+	width: 25%
+}
+div {
+	border: solid 2px purple;
+	padding: 10px;
+}
+h1, h3, span {
+	font-weight: bold;
+	text-align: center;
+}
+h1 {
+	font-size: 30pt;
+}
+ol {
+	list-style: decimal inside;
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+div.header {
+	background-color: #696969;
+}
+
+div.crystals {
+	background-color: #00FFFF;
+}
+
+div.header, div.gameGuide {
+	width: 50%;
+}
+
+.blackJackNum, .scoreboard{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.playerTotal {
+	width: 15%;
+	height: 30px;
+}
+.crystals {
+	clear: both;
+}
+.crystalImage {
+	height: 60px;
+	margin: 5px;
+}
+
+#blue {
+	color: #3092c7;
+}
+#green {
+	color: #00aa59;
+}
+#red {
+	color: #ec4b5f;
+}
+#pink {
+	color: #FF00FF;
+}
